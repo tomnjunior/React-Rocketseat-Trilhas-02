@@ -11,7 +11,7 @@ export function Summary() {
 
     const transactions = useContext(TransactionsContext);
 
-    console.log(transactions);
+    console.log
 
     return (
         <Container>
