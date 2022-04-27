@@ -17,13 +17,13 @@ interface TransactionsProviderProps {
     children: ReactNode;
 }
 
-interface TransationsContextData{
+interface TransactionsContextData {
     transactions: Transaction[];
     createTransaction: (transaction: TransactionInput) => void;
 }
 
-export const TransactionsContext = createContext<TransationsContextData>(
-    {} as TransationsContextData
+export const TransactionsContext = createContext<TransactionsContextData>(
+    {} as TransactionsContextData
 );
 
 export function TransactionsProvider({ children }: TransactionsProviderProps) {
